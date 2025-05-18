@@ -1,0 +1,627 @@
+{
+  "id": "d1d07b1c-096c-4499-b154-de9d80d5fd4e",
+  "version": "2.0",
+  "name": "createEmpresa",
+  "url": "https://localhost:44396",
+  "tests": [{
+    "id": "e36ef03c-e79a-4753-85e0-840ea008f621",
+    "name": "CreateEmpresa",
+    "commands": [{
+      "id": "25766085-1be9-4115-892c-4acb0c5425ae",
+      "comment": "",
+      "command": "open",
+      "target": "/Empresa/Create",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24c78962-2e54-4e46-a840-f927bae84f82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1238x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65127d9d-e910-4db2-8348-50221b508ec5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "447fb797-3717-46b3-82a7-64fc6d08a029",
+      "comment": "",
+      "command": "type",
+      "target": "id=Nome",
+      "targets": [
+        ["id=Nome", "id"],
+        ["name=Nome", "name"],
+        ["css=#Nome", "css:finder"],
+        ["xpath=//input[@id='Nome']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "THAMIRIS FREIRE LTDA"
+    }, {
+      "id": "2fee4ae3-cb68-4c58-b5fd-afb0bac113f4",
+      "comment": "",
+      "command": "click",
+      "target": "id=NomeFantasia",
+      "targets": [
+        ["id=NomeFantasia", "id"],
+        ["name=NomeFantasia", "name"],
+        ["css=#NomeFantasia", "css:finder"],
+        ["xpath=//input[@id='NomeFantasia']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d998940e-cc4f-4521-9885-0a6b1b20b7fc",
+      "comment": "",
+      "command": "type",
+      "target": "id=NomeFantasia",
+      "targets": [
+        ["id=NomeFantasia", "id"],
+        ["name=NomeFantasia", "name"],
+        ["css=#NomeFantasia", "css:finder"],
+        ["xpath=//input[@id='NomeFantasia']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "THAMIRIS FREIRE"
+    }, {
+      "id": "5fa52677-114d-40bd-88c3-7ab4294321c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=Cnpj",
+      "targets": [
+        ["id=Cnpj", "id"],
+        ["name=Cnpj", "name"],
+        ["css=#Cnpj", "css:finder"],
+        ["xpath=//input[@id='Cnpj']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bec86a5-8552-40fd-9ab5-b4a8fab926e6",
+      "comment": "",
+      "command": "type",
+      "target": "id=Cnpj",
+      "targets": [
+        ["id=Cnpj", "id"],
+        ["name=Cnpj", "name"],
+        ["css=#Cnpj", "css:finder"],
+        ["xpath=//input[@id='Cnpj']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "44454276000115"
+    }, {
+      "id": "9c1775a7-31cd-4fd4-aa45-578ede5210d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=CodigoNaturezaJuridica",
+      "targets": [
+        ["id=CodigoNaturezaJuridica", "id"],
+        ["name=CodigoNaturezaJuridica", "name"],
+        ["css=#CodigoNaturezaJuridica", "css:finder"],
+        ["xpath=//input[@id='CodigoNaturezaJuridica']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "619b18e0-bf1a-4129-a7a8-fc1c27ba0b79",
+      "comment": "",
+      "command": "type",
+      "target": "id=CodigoNaturezaJuridica",
+      "targets": [
+        ["id=CodigoNaturezaJuridica", "id"],
+        ["name=CodigoNaturezaJuridica", "name"],
+        ["css=#CodigoNaturezaJuridica", "css:finder"],
+        ["xpath=//input[@id='CodigoNaturezaJuridica']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "2062"
+    }, {
+      "id": "9764a2c3-8879-4903-9db8-710b6790d7d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=CapitalSocial",
+      "targets": [
+        ["id=CapitalSocial", "id"],
+        ["name=CapitalSocial", "name"],
+        ["css=#CapitalSocial", "css:finder"],
+        ["xpath=//input[@id='CapitalSocial']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42a83389-becd-4811-b9c6-20851664f2b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=CapitalSocial",
+      "targets": [
+        ["id=CapitalSocial", "id"],
+        ["name=CapitalSocial", "name"],
+        ["css=#CapitalSocial", "css:finder"],
+        ["xpath=//input[@id='CapitalSocial']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "f23ffd57-ea3c-4df1-b04d-7344343c810a",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Logradouro",
+      "targets": [
+        ["id=Endereco_Logradouro", "id"],
+        ["name=Endereco.Logradouro", "name"],
+        ["css=#Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a50d7ed-16f6-4bac-98f4-5170cf3277a2",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Logradouro",
+      "targets": [
+        ["id=Endereco_Logradouro", "id"],
+        ["name=Endereco.Logradouro", "name"],
+        ["css=#Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "ESTRADA DO CAPENHA"
+    }, {
+      "id": "d85a70fd-5231-43c3-8d2a-5d92c97cfe04",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Numero",
+      "targets": [
+        ["id=Endereco_Numero", "id"],
+        ["name=Endereco.Numero", "name"],
+        ["css=#Endereco_Numero", "css:finder"],
+        ["xpath=//input[@id='Endereco_Numero']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbac071d-348c-4bc8-a161-491eeeebeb9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Numero",
+      "targets": [
+        ["id=Endereco_Numero", "id"],
+        ["name=Endereco.Numero", "name"],
+        ["css=#Endereco_Numero", "css:finder"],
+        ["xpath=//input[@id='Endereco_Numero']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "40f02b1c-b14d-409d-a8c6-47e7981e7e04",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Bairro",
+      "targets": [
+        ["id=Endereco_Bairro", "id"],
+        ["name=Endereco.Bairro", "name"],
+        ["css=#Endereco_Bairro", "css:finder"],
+        ["xpath=//input[@id='Endereco_Bairro']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "378745e4-36e2-49c2-991c-ae3f206a6a1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Bairro",
+      "targets": [
+        ["id=Endereco_Bairro", "id"],
+        ["name=Endereco.Bairro", "name"],
+        ["css=#Endereco_Bairro", "css:finder"],
+        ["xpath=//input[@id='Endereco_Bairro']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "PECHINCHA"
+    }, {
+      "id": "ab1841d0-72e5-4b15-b3fd-2bdb9bf3de74",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Cidade",
+      "targets": [
+        ["id=Endereco_Cidade", "id"],
+        ["name=Endereco.Cidade", "name"],
+        ["css=#Endereco_Cidade", "css:finder"],
+        ["xpath=//input[@id='Endereco_Cidade']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b1141d-d84e-4df3-8603-d1a1e17de8ce",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Cidade",
+      "targets": [
+        ["id=Endereco_Cidade", "id"],
+        ["name=Endereco.Cidade", "name"],
+        ["css=#Endereco_Cidade", "css:finder"],
+        ["xpath=//input[@id='Endereco_Cidade']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "RIO DE JANEIRO"
+    }, {
+      "id": "fc8896cb-706f-4d2d-9956-894ce2874459",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Estado",
+      "targets": [
+        ["id=Endereco_Estado", "id"],
+        ["name=Endereco.Estado", "name"],
+        ["css=#Endereco_Estado", "css:finder"],
+        ["xpath=//input[@id='Endereco_Estado']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ece23e36-5f86-4461-96f8-8740c3ba01f6",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Estado",
+      "targets": [
+        ["id=Endereco_Estado", "id"],
+        ["name=Endereco.Estado", "name"],
+        ["css=#Endereco_Estado", "css:finder"],
+        ["xpath=//input[@id='Endereco_Estado']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div[5]/input", "xpath:position"]
+      ],
+      "value": "RJ"
+    }, {
+      "id": "59a2bfbf-fb60-4a6d-a439-3a733393f6ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Cep",
+      "targets": [
+        ["id=Endereco_Cep", "id"],
+        ["name=Endereco.Cep", "name"],
+        ["css=#Endereco_Cep", "css:finder"],
+        ["xpath=//input[@id='Endereco_Cep']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c2cb212-7573-4d1d-8d4c-886beb5f1fad",
+      "comment": "",
+      "command": "type",
+      "target": "id=Endereco_Cep",
+      "targets": [
+        ["id=Endereco_Cep", "id"],
+        ["name=Endereco.Cep", "name"],
+        ["css=#Endereco_Cep", "css:finder"],
+        ["xpath=//input[@id='Endereco_Cep']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "22743041"
+    }, {
+      "id": "2522aaea-b3de-4f07-b464-f588a04449d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Nome",
+      "targets": [
+        ["id=Socios_0__Nome", "id"],
+        ["name=Socios[0].Nome", "name"],
+        ["css=#Socios_0__Nome", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Nome']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c43a751c-c94f-41c6-bc53-90528f75836d",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Nome",
+      "targets": [
+        ["id=Socios_0__Nome", "id"],
+        ["name=Socios[0].Nome", "name"],
+        ["css=#Socios_0__Nome", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Nome']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "THAMIRIS FREIRE"
+    }, {
+      "id": "69303afe-5673-4067-89db-80e298502f77",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Cpf",
+      "targets": [
+        ["id=Socios_0__Cpf", "id"],
+        ["name=Socios[0].Cpf", "name"],
+        ["css=#Socios_0__Cpf", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Cpf']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "08584530967"
+    }, {
+      "id": "2375545a-b449-46ed-af43-de4d4c7d1721",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__DataNascimento",
+      "targets": [
+        ["id=Socios_0__DataNascimento", "id"],
+        ["name=Socios[0].DataNascimento", "name"],
+        ["css=#Socios_0__DataNascimento", "css:finder"],
+        ["xpath=//input[@id='Socios_0__DataNascimento']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f901aa13-df97-4d3c-8254-d527fdb60e00",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__DataNascimento",
+      "targets": [
+        ["id=Socios_0__DataNascimento", "id"],
+        ["name=Socios[0].DataNascimento", "name"],
+        ["css=#Socios_0__DataNascimento", "css:finder"],
+        ["xpath=//input[@id='Socios_0__DataNascimento']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "1991-02-09"
+    }, {
+      "id": "c207dfcb-4d18-4b27-ad28-6403fc884b2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6:nth-child(3)",
+      "targets": [
+        ["css=.col-md-6:nth-child(3)", "css:finder"],
+        ["xpath=//fieldset[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e33ec40b-8172-427f-89c3-1a5797b7ffcd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Participacao",
+      "targets": [
+        ["id=Socios_0__Participacao", "id"],
+        ["name=Socios[0].Participacao", "name"],
+        ["css=#Socios_0__Participacao", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Participacao']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed39f54-56b3-4878-ba0b-e9661ff3f6f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Participacao",
+      "targets": [
+        ["id=Socios_0__Participacao", "id"],
+        ["name=Socios[0].Participacao", "name"],
+        ["css=#Socios_0__Participacao", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Participacao']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "00a260ca-9648-4866-8881-f9480caf1ff6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__DataEntrada",
+      "targets": [
+        ["id=Socios_0__DataEntrada", "id"],
+        ["name=Socios[0].DataEntrada", "name"],
+        ["css=#Socios_0__DataEntrada", "css:finder"],
+        ["xpath=//input[@id='Socios_0__DataEntrada']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee664dcc-6542-4fd6-897a-9bc7b521d065",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__DataEntrada",
+      "targets": [
+        ["id=Socios_0__DataEntrada", "id"],
+        ["name=Socios[0].DataEntrada", "name"],
+        ["css=#Socios_0__DataEntrada", "css:finder"],
+        ["xpath=//input[@id='Socios_0__DataEntrada']", "xpath:attributes"],
+        ["xpath=//fieldset[3]/div/div[5]/input", "xpath:position"]
+      ],
+      "value": "2025-05-18"
+    }, {
+      "id": "735d3b5e-8f34-4332-a13f-6c2456de84ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mt-4 > legend",
+      "targets": [
+        ["css=.mt-4 > legend", "css:finder"],
+        ["xpath=//fieldset[4]/legend", "xpath:position"],
+        ["xpath=//legend[contains(.,'Endereço Sócio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac76eef0-8ae0-4c59-95a9-c7f1745f6be6",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Endereco_Logradouro",
+      "targets": [
+        ["id=Socios_0__Endereco_Logradouro", "id"],
+        ["name=Socios[0].Endereco.Logradouro", "name"],
+        ["css=#Socios_0__Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "731ea6fa-c86b-4b96-a366-af65fbbec7a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=Endereco_Logradouro",
+      "targets": [
+        ["id=Endereco_Logradouro", "id"],
+        ["name=Endereco.Logradouro", "name"],
+        ["css=#Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7303dc11-26d4-42c0-839f-8b71dd9a772f",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Endereco_Logradouro",
+      "targets": [
+        ["id=Socios_0__Endereco_Logradouro", "id"],
+        ["name=Socios[0].Endereco.Logradouro", "name"],
+        ["css=#Socios_0__Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0e8e14f-2e67-4c46-aeb7-19bd9ec8eded",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Logradouro",
+      "targets": [
+        ["id=Socios_0__Endereco_Logradouro", "id"],
+        ["name=Socios[0].Endereco.Logradouro", "name"],
+        ["css=#Socios_0__Endereco_Logradouro", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Logradouro']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "ESTRADA DO CAPENHA"
+    }, {
+      "id": "a0ee3bf9-b5d9-43a4-9dd5-91a5d23cdae3",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Endereco_Numero",
+      "targets": [
+        ["id=Socios_0__Endereco_Numero", "id"],
+        ["name=Socios[0].Endereco.Numero", "name"],
+        ["css=#Socios_0__Endereco_Numero", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Numero']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6340aced-3144-4862-99b8-ce0de273cffd",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Numero",
+      "targets": [
+        ["id=Socios_0__Endereco_Numero", "id"],
+        ["name=Socios[0].Endereco.Numero", "name"],
+        ["css=#Socios_0__Endereco_Numero", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Numero']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8d75560e-45f1-437f-9c04-82fa9d4e94bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Endereco_Bairro",
+      "targets": [
+        ["id=Socios_0__Endereco_Bairro", "id"],
+        ["name=Socios[0].Endereco.Bairro", "name"],
+        ["css=#Socios_0__Endereco_Bairro", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Bairro']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cadece67-eda2-44dd-bc2c-4f08a6198d9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Bairro",
+      "targets": [
+        ["id=Socios_0__Endereco_Bairro", "id"],
+        ["name=Socios[0].Endereco.Bairro", "name"],
+        ["css=#Socios_0__Endereco_Bairro", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Bairro']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[3]/input", "xpath:position"]
+      ],
+      "value": "PECHINCHA"
+    }, {
+      "id": "62d7451f-5b00-4fee-adad-c73a623b19dd",
+      "comment": "",
+      "command": "click",
+      "target": "id=Socios_0__Endereco_Cidade",
+      "targets": [
+        ["id=Socios_0__Endereco_Cidade", "id"],
+        ["name=Socios[0].Endereco.Cidade", "name"],
+        ["css=#Socios_0__Endereco_Cidade", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Cidade']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1b5221a-157c-48c1-a2ad-e9781c830e04",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Cidade",
+      "targets": [
+        ["id=Socios_0__Endereco_Cidade", "id"],
+        ["name=Socios[0].Endereco.Cidade", "name"],
+        ["css=#Socios_0__Endereco_Cidade", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Cidade']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[4]/input", "xpath:position"]
+      ],
+      "value": "RIO DE JANEIRO"
+    }, {
+      "id": "f0b5b397-953e-43b9-9d48-a085669e1063",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Estado",
+      "targets": [
+        ["id=Socios_0__Endereco_Estado", "id"],
+        ["name=Socios[0].Endereco.Estado", "name"],
+        ["css=#Socios_0__Endereco_Estado", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Estado']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[5]/input", "xpath:position"]
+      ],
+      "value": "RJ"
+    }, {
+      "id": "18955ee7-04f8-46d5-a362-a16de06b4947",
+      "comment": "",
+      "command": "type",
+      "target": "id=Socios_0__Endereco_Cep",
+      "targets": [
+        ["id=Socios_0__Endereco_Cep", "id"],
+        ["name=Socios[0].Endereco.Cep", "name"],
+        ["css=#Socios_0__Endereco_Cep", "css:finder"],
+        ["xpath=//input[@id='Socios_0__Endereco_Cep']", "xpath:attributes"],
+        ["xpath=//fieldset[4]/div/div[6]/input", "xpath:position"]
+      ],
+      "value": "22743041"
+    }, {
+      "id": "21a05146-9af1-4e7c-82a7-651491e4a9ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Criar Empresa')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f8624942-ccee-42a9-8196-cd382035c07b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e36ef03c-e79a-4753-85e0-840ea008f621"]
+  }],
+  "urls": ["https://localhost:44396/"],
+  "plugins": []
+}

@@ -1,0 +1,6 @@
+C:\Infnet\SRE\RegistroEmpresas.Domain\obj\Debug\RegistroEmpresas.Domain.csproj.AssemblyReference.cache
+C:\Infnet\SRE\RegistroEmpresas.Domain\obj\Debug\RegistroEmpresas.Domain.csproj.CoreCompileInputs.cache
+C:\Infnet\SRE\RegistroEmpresas.Domain\bin\Debug\RegistroEmpresas.Domain.dll
+C:\Infnet\SRE\RegistroEmpresas.Domain\bin\Debug\RegistroEmpresas.Domain.pdb
+C:\Infnet\SRE\RegistroEmpresas.Domain\obj\Debug\RegistroEmpresas.Domain.dll
+C:\Infnet\SRE\RegistroEmpresas.Domain\obj\Debug\RegistroEmpresas.Domain.pdb

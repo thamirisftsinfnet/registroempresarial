@@ -1,0 +1,345 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Infnet\\SRE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\entities\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\entities\\pessoajuridica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236CFA8-C913-4005-AAEA-F3073D802F2A}|RegistroEmpresas.Web\\RegistroEmpresas.Web.csproj|c:\\infnet\\sre\\registroempresas.web\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A236CFA8-C913-4005-AAEA-F3073D802F2A}|RegistroEmpresas.Web\\RegistroEmpresas.Web.csproj|solutionrelative:registroempresas.web\\controllers\\empresacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A236CFA8-C913-4005-AAEA-F3073D802F2A}|RegistroEmpresas.Web\\RegistroEmpresas.Web.csproj|c:\\infnet\\sre\\registroempresas.web\\views\\empresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A236CFA8-C913-4005-AAEA-F3073D802F2A}|RegistroEmpresas.Web\\RegistroEmpresas.Web.csproj|solutionrelative:registroempresas.web\\views\\empresa\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\valueobjects\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\valueobjects\\endereco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\services\\registrarempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\services\\registrarempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\registroempresarial\\services\\participacaosocietariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\services\\participacaosocietariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\interfaces\\services\\iregistrarempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\interfaces\\services\\iregistrarempresaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\registroempresarial\\interfaces\\services\\iparticipacaosocietariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\interfaces\\services\\iparticipacaosocietariaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\interfaces\\repositories\\ipessoajuridicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\interfaces\\repositories\\ipessoajuridicarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\integration\\sistemacontabil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\integration\\sistemacontabil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\integration\\isistemacontabil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\integration\\isistemacontabil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\integration\\icontabilidadeadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\integration\\icontabilidadeadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\registroempresarial\\integration\\contabilidadeadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\integration\\contabilidadeadapter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\registroempresarial\\entities\\participacaosocietaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\registroempresarial\\entities\\participacaosocietaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|c:\\infnet\\sre\\registroempresas.domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\interfaces\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\entities\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\entities\\pessoafisica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|C:\\Infnet\\SRE\\registroempresas.domain\\entities\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62A68AD2-FB13-478A-AE01-87E7087F9031}|RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj|solutionrelative:registroempresas.domain\\entities\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C0769E-CC28-4013-BC59-24AB71048B38}|RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj|c:\\infnet\\sre\\registroempresas.tests\\participacaosocietariaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C0769E-CC28-4013-BC59-24AB71048B38}|RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj|solutionrelative:registroempresas.tests\\participacaosocietariaservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2C0769E-CC28-4013-BC59-24AB71048B38}|RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj|c:\\infnet\\sre\\registroempresas.tests\\empresatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2C0769E-CC28-4013-BC59-24AB71048B38}|RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj|solutionrelative:registroempresas.tests\\empresatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Web\\Views\\Empresa\\Create.cshtml",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Web\\Views\\Empresa\\Create.cshtml",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Web\\Views\\Empresa\\Create.cshtml",
+              "RelativeToolTip": "RegistroEmpresas.Web\\Views\\Empresa\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-18T18:16:10.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ParticipacaoSocietariaService.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\ParticipacaoSocietariaService.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\ParticipacaoSocietariaService.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\ParticipacaoSocietariaService.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\ParticipacaoSocietariaService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAADwvzkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:54:14.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrarEmpresaService.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\RegistrarEmpresaService.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\RegistrarEmpresaService.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\RegistrarEmpresaService.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Services\\RegistrarEmpresaService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:53:22.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Endereco.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\ValueObjects\\Endereco.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\ValueObjects\\Endereco.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\ValueObjects\\Endereco.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\ValueObjects\\Endereco.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAswBIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:45.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoaJuridica.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\PessoaJuridica.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\PessoaJuridica.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\PessoaJuridica.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\PessoaJuridica.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowDIAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:02:17.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpresaController.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Web\\Controllers\\EmpresaController.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Web\\Controllers\\EmpresaController.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Web\\Controllers\\EmpresaController.cs",
+              "RelativeToolTip": "RegistroEmpresas.Web\\Controllers\\EmpresaController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAhwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:16:16.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRegistrarEmpresaService.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IRegistrarEmpresaService.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IRegistrarEmpresaService.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IRegistrarEmpresaService.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IRegistrarEmpresaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:54:23.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IParticipacaoSocietariaService.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IParticipacaoSocietariaService.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IParticipacaoSocietariaService.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IParticipacaoSocietariaService.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Services\\IParticipacaoSocietariaService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:36.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPessoaJuridicaRepository.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Repositories\\IPessoaJuridicaRepository.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Repositories\\IPessoaJuridicaRepository.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Repositories\\IPessoaJuridicaRepository.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Interfaces\\Repositories\\IPessoaJuridicaRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:29:39.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SistemaContabil.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\SistemaContabil.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\SistemaContabil.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\SistemaContabil.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\SistemaContabil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:03:00.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ISistemaContabil.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ISistemaContabil.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ISistemaContabil.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ISistemaContabil.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ISistemaContabil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:54:47.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IContabilidadeAdapter.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\IContabilidadeAdapter.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\IContabilidadeAdapter.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\IContabilidadeAdapter.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\IContabilidadeAdapter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:54:43.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContabilidadeAdapter.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ContabilidadeAdapter.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ContabilidadeAdapter.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ContabilidadeAdapter.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Integration\\ContabilidadeAdapter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:54:38.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ParticipacaoSocietaria.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\ParticipacaoSocietaria.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\ParticipacaoSocietaria.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\ParticipacaoSocietaria.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\RegistroEmpresarial\\Entities\\ParticipacaoSocietaria.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:21.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\Interfaces\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:27:59.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PessoaFisica.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Entities\\PessoaFisica.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\Entities\\PessoaFisica.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Entities\\PessoaFisica.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\Entities\\PessoaFisica.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:16.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Entities\\Pessoa.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Domain\\Entities\\Pessoa.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\Entities\\Pessoa.cs",
+              "RelativeToolTip": "RegistroEmpresas.Domain\\Entities\\Pessoa.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwCAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T17:04:12.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ParticipacaoSocietariaServiceTests.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\ParticipacaoSocietariaServiceTests.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Tests\\ParticipacaoSocietariaServiceTests.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\ParticipacaoSocietariaServiceTests.cs",
+              "RelativeToolTip": "RegistroEmpresas.Tests\\ParticipacaoSocietariaServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:51:50.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmpresaTests.cs",
+              "DocumentMoniker": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\EmpresaTests.cs",
+              "RelativeDocumentMoniker": "RegistroEmpresas.Tests\\EmpresaTests.cs",
+              "ToolTip": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\EmpresaTests.cs",
+              "RelativeToolTip": "RegistroEmpresas.Tests\\EmpresaTests.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T16:43:24.481Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

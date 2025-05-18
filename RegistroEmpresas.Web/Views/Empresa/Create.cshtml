@@ -1,0 +1,150 @@
+﻿@model RegistroEmpresas.Application.DTOs.PessoaJuridicaDto
+
+@{
+    ViewBag.Title = "Criar Empresa";
+}
+
+<h2 class="mb-4">Criar Empresa</h2>
+
+@if (TempData["Mensagem"] != null)
+{
+    <div class="alert alert-success">@TempData["Mensagem"]</div>
+}
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new { @class = "needs-validation", novalidate = "novalidate" }))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <fieldset class="mb-4">
+        <legend>Dados da Empresa</legend>
+        <div class="row g-3">
+            <div class="col-md-6 mb-3">
+                @Html.LabelFor(m => m.Nome, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Nome, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Nome, "", new { @class = "text-danger" })
+            </div>
+            <div class="mb-3 col-md-6">
+                @Html.LabelFor(m => m.NomeFantasia, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.NomeFantasia, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.NomeFantasia, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4 mb-3">
+                @Html.LabelFor(m => m.Cnpj, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Cnpj, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Cnpj, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-2 mb-3">
+                @Html.LabelFor(m => m.CodigoNaturezaJuridica, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.CodigoNaturezaJuridica, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CodigoNaturezaJuridica, "", new { @class = "text-danger" })
+            </div>
+
+            <div class="col-md-2 mb-3">
+                @Html.LabelFor(m => m.CapitalSocial, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.CapitalSocial, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CapitalSocial, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="mb-4">
+        <legend>Endereço</legend>
+
+        <div class="row g-3">
+            <div class="col-md-6">
+                @Html.LabelFor(m => m.Endereco.Logradouro, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Logradouro, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Logradouro, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-2">
+                @Html.LabelFor(m => m.Endereco.Numero, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Numero, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Numero, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Bairro, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Bairro, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Bairro, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Cidade, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Cidade, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Cidade, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Estado, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Estado, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Estado, "", new { @class = "text-danger" })
+            </div>
+            <div class="col-md-4">
+                @Html.LabelFor(m => m.Endereco.Cep, new { @class = "form-label" })
+                @Html.TextBoxFor(m => m.Endereco.Cep, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Endereco.Cep, "", new { @class = "text-danger" })
+            </div>
+        </div>
+    </fieldset>
+    <span>Inclusão de 1 sócio - somente para testar</span>
+    <fieldset class="mb-4">
+        <legend>Sócios</legend>
+        <div class="row g-3">
+            <div class="col-md-6">
+                @Html.Label("Nome", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Nome", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                @Html.Label("CPF", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Cpf", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                @Html.Label("Data Nascimento", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].DataNascimento", null, new { @type = "date", @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                @Html.Label("Participação", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Participacao", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                @Html.Label("Data Entrada", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].DataEntrada", null, new { @type = "date", @class = "form-control" })
+            </div>
+            <div class="col-md-6">
+                @Html.Label("Data Saída", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].DataSaida", null, new { @type = "date", @class = "form-control" })
+            </div>
+        </div>
+    </fieldset>
+    <fieldset class="mt-4">
+        <legend>Endereço Sócio</legend>
+        <div class="row g-3">
+            <div class="col-md-6">
+                @Html.Label("Logradouro", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Logradouro", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-2">
+                @Html.Label("Número", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Numero", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                @Html.Label("Bairro", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Bairro", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                @Html.Label("Cidade", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Cidade", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                @Html.Label("Estado", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Estado", null, new { @class = "form-control" })
+            </div>
+            <div class="col-md-4">
+                @Html.Label("Cep", new { @class = "form-label" })
+                @Html.TextBox("Socios[0].Endereco.Cep", null, new { @class = "form-control" })
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="mt-4">
+        <button type="submit" class="btn btn-primary">Criar Empresa</button>
+    </div>
+}

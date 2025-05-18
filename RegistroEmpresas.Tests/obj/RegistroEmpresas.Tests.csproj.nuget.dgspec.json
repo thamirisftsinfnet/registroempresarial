@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
+        "projectName": "RegistroEmpresas.Domain",
+        "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
+        "projectName": "RegistroEmpresas.Tests",
+        "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
+        "packagesPath": "C:\\Users\\vtham\\.nuget\\packages\\",
+        "outputPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vtham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
+                "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

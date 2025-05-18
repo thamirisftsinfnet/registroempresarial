@@ -1,0 +1,9 @@
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\bin\Debug\RegistroEmpresas.Infraestructure.dll
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\bin\Debug\RegistroEmpresas.Infraestructure.pdb
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\bin\Debug\RegistroEmpresas.Domain.dll
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\bin\Debug\RegistroEmpresas.Domain.pdb
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\obj\Debug\RegistroEmpresas.Infraestructure.csproj.AssemblyReference.cache
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\obj\Debug\RegistroEmpresas.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\obj\Debug\Registro.0C593DA6.Up2Date
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\obj\Debug\RegistroEmpresas.Infraestructure.dll
+C:\Infnet\SRE\RegistroEmpresas.Infraestructure\obj\Debug\RegistroEmpresas.Infraestructure.pdb
