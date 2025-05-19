@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {}
+    "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
+    "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
+        "projectUniqueName": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
         "projectName": "RegistroEmpresas.Domain",
-        "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
+        "projectPath": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {}
@@ -19,14 +19,14 @@
         "net48": {}
       }
     },
-    "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {
+    "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
+        "projectUniqueName": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
         "projectName": "RegistroEmpresas.Tests",
-        "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
+        "projectPath": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Tests\\RegistroEmpresas.Tests.csproj",
         "packagesPath": "C:\\Users\\vtham\\.nuget\\packages\\",
-        "outputPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Tests\\obj\\",
+        "outputPath": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vtham\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,8 +44,8 @@
           "net48": {
             "targetAlias": "net48",
             "projectReferences": {
-              "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
-                "projectPath": "C:\\Infnet\\SRE\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj"
+              "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj": {
+                "projectPath": "C:\\Infnet\\registroempresarial\\RegistroEmpresas.Domain\\RegistroEmpresas.Domain.csproj"
               }
             }
           }

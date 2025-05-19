@@ -47,10 +47,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RegistroEmpresarial\Entities\PessoaJuridica.cs" />
     <Compile Include="RegistroEmpresarial\Entities\ParticipacaoSocietaria.cs" />
-    <Compile Include="RegistroEmpresarial\Integration\ContabilidadeAdapter.cs" />
-    <Compile Include="RegistroEmpresarial\Integration\IContabilidadeAdapter.cs" />
-    <Compile Include="RegistroEmpresarial\Integration\ISistemaContabil.cs" />
-    <Compile Include="RegistroEmpresarial\Integration\SistemaContabil.cs" />
+    <Compile Include="Contabilidade\Integration\ContabilidadeAdapter.cs" />
+    <Compile Include="Contabilidade\Integration\IContabilidadeAdapter.cs" />
+    <Compile Include="Contabilidade\Integration\ISistemaContabil.cs" />
+    <Compile Include="Contabilidade\Integration\SistemaContabil.cs" />
     <Compile Include="RegistroEmpresarial\Interfaces\Repositories\IPessoaJuridicaRepository.cs" />
     <Compile Include="RegistroEmpresarial\Interfaces\Services\IParticipacaoSocietariaService.cs" />
     <Compile Include="RegistroEmpresarial\Interfaces\Services\IRegistrarEmpresaService.cs" />

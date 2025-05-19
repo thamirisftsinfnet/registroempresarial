@@ -1,6 +1,6 @@
 ﻿
 using RegistroEmpresas.Domain.RegistroEmpresarial.Entities;
-using RegistroEmpresas.Domain.RegistroEmpresarial.Integration;
+using RegistroEmpresas.Domain.Contabilidade.Integration;
 using RegistroEmpresas.Domain.RegistroEmpresarial.Interfaces.Repositories;
 using RegistroEmpresas.Domain.RegistroEmpresarial.Interfaces.Services;
 using System;
